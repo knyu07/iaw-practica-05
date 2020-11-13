@@ -12,7 +12,7 @@ apt install apache2 -y
 
 # Descargamos y copiamos el archivo de configuración de Apache
 git clone https://github.com/knyu07/iaw-practica-05
-cp /home/ubuntu/iaw-practica-05/balanceador/000-default.conf /etc/apache2/sites-available/
+cp /home/ubuntu/iaw-practica-05/000-default.conf /etc/apache2/sites-available/
 
 #Activamos los módulos
 a2enmod proxy
