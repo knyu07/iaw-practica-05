@@ -36,7 +36,7 @@ a2enmod proxy_html
 a2enmod lbmethod_byrequests
 
 ```
-- Y por último clonar nueestro archivo 000-default.conf y copiarlo en el archivo sites-enable de apache. 
+- Y por último clonar nuestro archivo 000-default.conf y copiarlo en el archivo sites-enable de apache. 
 
 Ejecutamos script y comprobamos.
 
