@@ -6,7 +6,7 @@ En esta práctica vamos a crear un balanceador, es decir, un "software" que lo q
 
 Usaremos las máquinas de anteriores prácticas.
 
-##INSTALACIÓN
+## INSTALACIÓN
 
 Crearemos otra máquina Ubuntu con estos requisitos:
 
@@ -40,4 +40,4 @@ a2enmod lbmethod_byrequests
 
 Ejecutamos script y comprobamos.
 
-
+:smile_cat:
