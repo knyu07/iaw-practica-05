@@ -14,7 +14,7 @@ Crearemos otra máquina Ubuntu con estos requisitos:
 - Abrir puerto HTTP
 - Abrir puerto HTTPS
 
-Una vez la máquina ya creada crearemos un archivo de configuración 000-deafult.conf y dentro de github crearemos un nuevo repositorio para este archivo (está público).
+Una vez la máquina ya creada crearemos un archivo de configuración 000-deafult.conf y dentro nuestro repositorio de la práctica y lo clonamos.
 
 Este archivo es lo que tendremos que clonar en nuestro script ya que será la que redireccione las peticiones al servidor. 
 
