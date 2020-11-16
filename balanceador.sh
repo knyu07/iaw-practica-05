@@ -1,6 +1,13 @@
-
 #!/bin/bash
 set -x
+
+#-----------------------------------
+# Variables de configuración
+#-----------------------------------
+
+IP_FRONT_1=18.232.83.127
+IP_FRONT_2=18.215.147.146
+
 # Actualizamos la lista de paquetes
 apt update
 
@@ -25,6 +32,10 @@ a2enmod lbmethod_byrequests
 # Descargamos y copiamos el archivo de configuración de Apache
 git clone https://github.com/knyu07/iaw-practica-05
 cp /home/ubuntu/iaw-practica-05/000-default.conf /etc/apache2/sites-available/
+
+#Reemplazamos los valores de IP-HTTP-SERVER-1 y IP-HTTP-SERVER-2
+sed -i "s/IP-HTTP-SERVER-1/$IP_FRONT_1/" /etc/apache2/sites-available/
+sed -i "s/IP-HTTP-SERVER-2/$IP_FRONT_2/" /etc/apache2/sites-available/
 
 #Reiniciamos
 systemctl restart apache2
