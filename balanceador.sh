@@ -34,8 +34,8 @@ git clone https://github.com/knyu07/iaw-practica-05
 cp /home/ubuntu/iaw-practica-05/000-default.conf /etc/apache2/sites-available/
 
 #Reemplazamos los valores de IP-HTTP-SERVER-1 y IP-HTTP-SERVER-2
-sed -i "s/IP-HTTP-SERVER-1/$IP_FRONT_1/" /etc/apache2/sites-available/
-sed -i "s/IP-HTTP-SERVER-2/$IP_FRONT_2/" /etc/apache2/sites-available/
+sed -i "s/IP-HTTP-SERVER-1/$IP_FRONT_1/" /etc/apache2/sites-available/000-default.conf
+sed -i "s/IP-HTTP-SERVER-2/$IP_FRONT_2/" /etc/apache2/sites-available/000-default.conf
 
 #Reiniciamos
 systemctl restart apache2
