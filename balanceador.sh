@@ -5,8 +5,8 @@ set -x
 # Variables de configuración
 #-----------------------------------
 
-IP_FRONT_1=18.232.83.127
-IP_FRONT_2=18.215.147.146
+IP_FRONT_1=54.83.107.89
+IP_FRONT_2=54.236.166.148
 
 # Actualizamos la lista de paquetes
 apt update
