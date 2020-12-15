@@ -11,9 +11,6 @@ IP_FRONT_2=54.236.166.148
 # Actualizamos la lista de paquetes
 apt update
 
-#Actualizamos los paquete
-apt upgrade -y
-
 # APACHE
 apt install apache2 -y
 
